@@ -1,0 +1,8 @@
+<h1>Bienvenido</h1>
+
+<h3>Bievenido {{ user.get_full_name }}</h3>
+
+<ul>
+    <li><a href="{% url 'users_app:logout' %}">Cerrar Sesión</a></li>
+    <li><a href="#">Actualizar Datos</a></li>
+</ul>
